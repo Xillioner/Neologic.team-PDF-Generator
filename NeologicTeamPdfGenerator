@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T10:46:37.196Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="E9j-BfkcrKvl5Za1G9Ki" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-10T11:01:24.464Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="3ss4Yz4MkMEaoJnK8u9u" version="20.2.3" type="github">
   <diagram id="mK6zhmx7SZXdAnGC1Xnv" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -39,9 +39,23 @@
         <mxCell id="gzdSCUTEaXWQ3yncN3wr-40" value="Адаптив" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/online-marketing-hand-drawn-vol-3/52/mobile__device__responsive__design__devices__screen__computer-128.png" vertex="1" parent="gzdSCUTEaXWQ3yncN3wr-31">
           <mxGeometry x="116" y="30" width="128" height="128" as="geometry" />
         </mxCell>
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-52" value="Страница которая конвертируется в pdf" style="swimlane;" vertex="1" parent="gzdSCUTEaXWQ3yncN3wr-31">
+          <mxGeometry x="45" y="830" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-60" value="Отвёрстанный профайл для генерации pdf" style="shape=folder;tabWidth=80;tabHeight=20;tabPosition=left;html=1;whiteSpace=wrap;align=center;" vertex="1" parent="gzdSCUTEaXWQ3yncN3wr-52">
+          <mxGeometry x="62" y="50" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-61" value="Адаптив" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/online-marketing-hand-drawn-vol-3/52/mobile__device__responsive__design__devices__screen__computer-128.png" vertex="1" parent="gzdSCUTEaXWQ3yncN3wr-31">
+          <mxGeometry x="116" y="680" width="128" height="128" as="geometry" />
+        </mxCell>
         <mxCell id="1" parent="0" />
         <mxCell id="gzdSCUTEaXWQ3yncN3wr-28" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d3d3d3;strokeWidth=2;container=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="10" width="320" height="490" as="geometry">
+            <mxRectangle x="370" y="10" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d3d3d3;strokeWidth=2;container=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="600" width="320" height="490" as="geometry">
             <mxRectangle x="370" y="10" width="50" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
