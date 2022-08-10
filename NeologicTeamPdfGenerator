@@ -1,1 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T10:15:02.019Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.3" etag="YF9S9puDOVYw58pJQqmI" type="github"><diagram id="mK6zhmx7SZXdAnGC1Xnv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-10T10:46:37.196Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="E9j-BfkcrKvl5Za1G9Ki" version="20.2.3" type="github">
+  <diagram id="mK6zhmx7SZXdAnGC1Xnv" name="Page-1">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-31" value="1Layer" parent="0" />
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-32" value="Главная страница (Интерфейс приложения)" style="swimlane;" vertex="1" parent="gzdSCUTEaXWQ3yncN3wr-31">
+          <mxGeometry x="40" y="200" width="280" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-33" value="Форма создания проекта&lt;br&gt;&amp;nbsp;с необходимыми полями" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/evericons-24px-vol-2/24/form-128.png" vertex="1" parent="gzdSCUTEaXWQ3yncN3wr-32">
+          <mxGeometry x="76" y="30" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-34" value="" style="shape=rect;strokeColor=none;fillColor=#ffffff;gradientColor=none;shadow=0;" vertex="1" parent="gzdSCUTEaXWQ3yncN3wr-32">
+          <mxGeometry x="60" y="210" width="164" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-35" value="Список созданных проектов" style="shape=rect;strokeColor=none;fontSize=10;fontColor=#000000;resizeWidth=1;align=left;spacingTop=2;spacingLeft=5;" vertex="1" parent="gzdSCUTEaXWQ3yncN3wr-34">
+          <mxGeometry width="164" height="20" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-36" value="Проект 1" style="shape=rect;strokeColor=none;fontSize=10;fontColor=#000000;resizeWidth=1;align=left;spacingTop=2;spacingLeft=5;" vertex="1" parent="gzdSCUTEaXWQ3yncN3wr-34">
+          <mxGeometry width="164" height="20" relative="1" as="geometry">
+            <mxPoint y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-37" value="Ссылка pdf" style="shape=mxgraph.ios7.misc.right;strokeColor=#666666;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontSize=10;spacingRight=4;fontColor=#999999;" vertex="1" parent="gzdSCUTEaXWQ3yncN3wr-36">
+          <mxGeometry x="1" y="0.5" width="5" height="10" relative="1" as="geometry">
+            <mxPoint x="-15" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-38" value="Проект 2" style="shape=rect;strokeColor=none;fontSize=10;fontColor=#000000;resizeWidth=1;align=left;spacingTop=2;spacingLeft=5;" vertex="1" parent="gzdSCUTEaXWQ3yncN3wr-34">
+          <mxGeometry width="164" height="20" relative="1" as="geometry">
+            <mxPoint y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-39" value="Ссылка pdf" style="shape=mxgraph.ios7.misc.right;strokeColor=#666666;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontSize=10;spacingRight=4;fontColor=#999999;" vertex="1" parent="gzdSCUTEaXWQ3yncN3wr-38">
+          <mxGeometry x="1" y="0.5" width="5" height="10" relative="1" as="geometry">
+            <mxPoint x="-15" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-40" value="Адаптив" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/online-marketing-hand-drawn-vol-3/52/mobile__device__responsive__design__devices__screen__computer-128.png" vertex="1" parent="gzdSCUTEaXWQ3yncN3wr-31">
+          <mxGeometry x="116" y="30" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="1" parent="0" />
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-28" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d3d3d3;strokeWidth=2;container=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="320" height="490" as="geometry">
+            <mxRectangle x="370" y="10" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
