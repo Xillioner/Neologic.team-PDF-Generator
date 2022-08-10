@@ -1,9 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T11:01:24.464Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="3ss4Yz4MkMEaoJnK8u9u" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-10T11:31:10.297Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="XDPaR6E_TuhzMRrwZmSa" version="20.2.3" type="github">
   <diagram id="mK6zhmx7SZXdAnGC1Xnv" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
-        <mxCell id="gzdSCUTEaXWQ3yncN3wr-31" value="1Layer" parent="0" />
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-31" value="1Layer" style="" parent="0" />
         <mxCell id="gzdSCUTEaXWQ3yncN3wr-32" value="Главная страница (Интерфейс приложения)" style="swimlane;" vertex="1" parent="gzdSCUTEaXWQ3yncN3wr-31">
           <mxGeometry x="40" y="200" width="280" height="290" as="geometry" />
         </mxCell>
@@ -40,22 +40,70 @@
           <mxGeometry x="116" y="30" width="128" height="128" as="geometry" />
         </mxCell>
         <mxCell id="gzdSCUTEaXWQ3yncN3wr-52" value="Страница которая конвертируется в pdf" style="swimlane;" vertex="1" parent="gzdSCUTEaXWQ3yncN3wr-31">
-          <mxGeometry x="45" y="830" width="270" height="170" as="geometry" />
+          <mxGeometry x="555" y="440" width="270" height="170" as="geometry" />
         </mxCell>
         <mxCell id="gzdSCUTEaXWQ3yncN3wr-60" value="Отвёрстанный профайл для генерации pdf" style="shape=folder;tabWidth=80;tabHeight=20;tabPosition=left;html=1;whiteSpace=wrap;align=center;" vertex="1" parent="gzdSCUTEaXWQ3yncN3wr-52">
           <mxGeometry x="62" y="50" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gzdSCUTEaXWQ3yncN3wr-61" value="Адаптив" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/online-marketing-hand-drawn-vol-3/52/mobile__device__responsive__design__devices__screen__computer-128.png" vertex="1" parent="gzdSCUTEaXWQ3yncN3wr-31">
-          <mxGeometry x="116" y="680" width="128" height="128" as="geometry" />
+          <mxGeometry x="626" y="270" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=87;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="gzdSCUTEaXWQ3yncN3wr-31" source="gzdSCUTEaXWQ3yncN3wr-65" target="gzdSCUTEaXWQ3yncN3wr-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="141" />
+              <mxPoint x="470" y="445" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-71" value="Получение списка проектов" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gzdSCUTEaXWQ3yncN3wr-70">
+          <mxGeometry x="0.4758" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-74" value="Получение данных для preview pdf" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.452;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="gzdSCUTEaXWQ3yncN3wr-31" source="gzdSCUTEaXWQ3yncN3wr-65" target="gzdSCUTEaXWQ3yncN3wr-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-65" value="База данных приложения&lt;br&gt;&lt;br&gt;Созданные проекты" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="gzdSCUTEaXWQ3yncN3wr-31">
+          <mxGeometry x="620" y="54" width="110" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="gzdSCUTEaXWQ3yncN3wr-31" source="gzdSCUTEaXWQ3yncN3wr-33" target="gzdSCUTEaXWQ3yncN3wr-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-67" value="Создание нового проекта" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gzdSCUTEaXWQ3yncN3wr-66">
+          <mxGeometry x="0.3779" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="gzdSCUTEaXWQ3yncN3wr-31" source="gzdSCUTEaXWQ3yncN3wr-75" target="gzdSCUTEaXWQ3yncN3wr-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-75" value="Call to API Converter&lt;br&gt;(Создание pdf)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;strokeColor=#d3d3d3;fontColor=rgb(0, 0, 0);rounded=0;strokeWidth=2;" vertex="1" parent="gzdSCUTEaXWQ3yncN3wr-31">
+          <mxGeometry x="540" y="720" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.4;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="gzdSCUTEaXWQ3yncN3wr-31" source="gzdSCUTEaXWQ3yncN3wr-78" target="gzdSCUTEaXWQ3yncN3wr-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-78" value="API PDF Converter Server" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="gzdSCUTEaXWQ3yncN3wr-31">
+          <mxGeometry x="960" y="685" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-84" value="Положить файл в базу данных" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="gzdSCUTEaXWQ3yncN3wr-31" source="gzdSCUTEaXWQ3yncN3wr-82" target="gzdSCUTEaXWQ3yncN3wr-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-82" value="Получил PDF Файл" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/file-extensions-1/64/pdfs-128.png" vertex="1" parent="gzdSCUTEaXWQ3yncN3wr-31">
+          <mxGeometry x="950" y="310" width="192" height="192" as="geometry" />
         </mxCell>
         <mxCell id="1" parent="0" />
         <mxCell id="gzdSCUTEaXWQ3yncN3wr-28" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d3d3d3;strokeWidth=2;container=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="10" width="320" height="490" as="geometry">
+          <mxGeometry x="20" y="10" width="320" height="500" as="geometry">
             <mxRectangle x="370" y="10" width="50" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="gzdSCUTEaXWQ3yncN3wr-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gzdSCUTEaXWQ3yncN3wr-43" target="gzdSCUTEaXWQ3yncN3wr-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="gzdSCUTEaXWQ3yncN3wr-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d3d3d3;strokeWidth=2;container=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="600" width="320" height="490" as="geometry">
+          <mxGeometry x="530" y="250" width="320" height="380" as="geometry">
             <mxRectangle x="370" y="10" width="50" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
